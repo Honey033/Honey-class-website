@@ -1,0 +1,20 @@
+h1 {font-size: 32px;}
+h2 {font-size: 64px;
+color: rgb(48, 169, 255);}
+body {
+   font-size: 32px; background-color: rgb(137, 239, 255);}
+
+    p:hover {color: rgb(209, 46, 87);}
+        
+    body  p{
+        color:beige
+        }
+        h1:hover {color: rgb(255, 0, 64);}
+        
+    body  p{
+        color:beige
+        } 
+    h3 {color: beige;font-size: 32px;}
+    h3:hover{color: blue;}
+    h4 {color: beige;}
+    h4:hover{color: blue;}

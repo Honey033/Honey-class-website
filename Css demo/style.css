@@ -1,0 +1,41 @@
+html {
+    font-size: 36px;
+}
+body {
+    background-color:rgb(27, 77, 57)
+    width: 800px;
+    font-size: 2rempt;
+    width: 50vw;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(255, 0, 111);
+}
+P {
+color: rgb(255, 74, 180);
+width: 50%; 
+background: pink;
+width: 50vw;
+}
+
+a {
+    color:inherit;
+    font-size: 4rem;
+}
+
+h3.green {
+    color: greenyellow;
+}
+
+#first{
+    font-weight: bold;
+}
+
+body  p{
+color:beige
+}
+
+p:hover {
+    color: rgb(255, 0, 64);
+}

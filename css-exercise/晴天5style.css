@@ -1,0 +1,12 @@
+h1{color: aqua;
+font-size: 32px;}
+H1:hover{color: blue;}
+h2{color: aqua;}
+h2:hover{color: blue;}
+h3{color: aqua;}
+h3:hover{color: blue;}
+h4{color: aqua;}
+h4:hover{color: blue;}
+p{color: aqua;}
+P:hover{color: blue;}
+body{background-color: aqua;width: 160px;}
