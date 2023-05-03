@@ -1,1 +1,63 @@
-p{color: rgb(255, 242, 0);font: size 16px; }
+p {
+    color: rgb(255, 242, 0);
+    font: size 16px;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    width: 250px;
+}
+
+body,
+html {
+    width: 100%;
+    background: url('./assests/image/蓝天北京.jpeg') no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-r {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.flex-r:nth-child(2n+1) p {
+    position: absolute;
+    right: -430px;
+    top: 30px;
+    display: none;
+}
+
+.flex-r:nth-child(2n) p {
+    position: absolute;
+    left: -430px;
+    top: 30px;
+    display: none;
+}
+
+
+.flex-r .text {
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    display: none;
+    height: 107.5px;
+    overflow: hidden;
+}
+.flex-r:hover .text {
+    display: block;
+}
+
+.flex-r:hover p {
+    display: block;
+}
