@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px black;
+  }
+  
+  .item {
+    flex: 1 1 auto;
+    background-color: rgb(255, 0, 251);
+    border: 1px solid black;
+    flex: 1;
+    transition: all 0.5s ease-in-out;
+  }
+  .item:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    flex-grow: 2;
+  }
+  .item:not(:hover) {
+    flex-grow: 1;
+  }
+  body {
+    height: 100%;
+  }

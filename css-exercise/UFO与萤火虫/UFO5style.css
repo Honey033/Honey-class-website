@@ -43,7 +43,18 @@ body {
 
 .box:hover .text {
     display: block;
+    animation: flyIn 1s ease forwards;
 }
+
+@keyframes flyIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
 
 .text {
     position: absolute;

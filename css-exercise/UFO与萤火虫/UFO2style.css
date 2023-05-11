@@ -28,7 +28,17 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-}
+    animation: flyIn 1s ease forwards;
+    }
+    @keyframes flyIn {
+        from {
+          transform: translateY(-200%);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      
 
 
 .flex-r:nth-child(2n+1) p {

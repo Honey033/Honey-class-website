@@ -1,0 +1,15 @@
+body{background-color: rgb(204, 225, 255);}
+.item {
+    background: rgb(255, 50, 159);
+    border: 1px solid black;
+
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;}
+
+    .container1 {
+        display: grid;
+      }
+    
+   

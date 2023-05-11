@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(192, 192, 192, 0.262);
+}
+.container {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap:    20px;
+    grid-column-gap: 5rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #000000;
+  }
+
+
+  .container{
+    grid-template-areas:
+    ". . ."
+    ". box ."
+    ". . .";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.item:hover {
+    transform: scale(1.2);
+    color:  rgb(140, 255, 0);
+
+}
+
+
+  .item {
+    background: rgb(255, 0, 140);
+    border: 1px solid black;
+    height: 450px;
+    width: 450px;}
+
+    .container {
+        align-items:  flex-end;
+      }
+
+.box { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: rgb(140, 255, 0);
+    border: 1px solid black;
+}
+.box:hover {background:  rgb(255, 0, 140);}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(255, 0, 140);
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 10px;}
+  
+  @media screen and (max-width: 1080px) {
+    nav {
+      flex-flow: column nowrap;
+          align-items: center;
+    }
+  }

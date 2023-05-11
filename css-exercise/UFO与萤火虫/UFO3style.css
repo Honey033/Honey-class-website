@@ -49,7 +49,17 @@ body {
     display: flex;
     width: 1000px;
     justify-content: space-between;
+    animation: flyIn 1s ease forwards;
 }
+
+@keyframes flyIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 
 .flex-r:nth-of-type(1),
 .flex-r:nth-of-type(3),
