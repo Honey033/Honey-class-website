@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(17, 60px);}
+   
+    .item {
+        background-color: #ee00ff;
+        border: 1px solid black;
+        padding: 10px;
+        grid-gap: 30px;
+        text-align: center;
+        font-size: 16px;
+
+      }
+      
+      
+      .item:hover {
+        transform:
+             scaleY(1.5);
+             background-color: rgb(30, 255, 0);
+              /* 假设原来的字体大小为 16px */
+             font-size: calc(16px / 1.5);
+              }
+      
+      
+      .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    
+      
+      
+      
+      
+      
+      
